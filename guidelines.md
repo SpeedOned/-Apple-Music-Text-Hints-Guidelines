@@ -180,3 +180,8 @@ A secondary intent is less likely intent compared to a primary one. A secondary 
 - **Less recent**: Hints that points to a less recent content. 
   - A less recent suggestion might be “good life” for the prefix “good”. The primary intent is likely the song “good 4 u” by Olivia Rodrigo and the hints points to the less recent song “Good Life” by OneRepublic (released in 2009). 
 - **Slightly Specific**: Hint that points to content relevant to a smaller group of users than for the primary intent or that restricts the intent.
+### Query: Esempi
+
+#### Query [workout]
+- **Text Hint:** workout songs => **Acceptable**  
+  Questo suggerimento potrebbe sembrare ridondante poiché contiene un linguaggio ovvio nel nostro contesto; tuttavia, potresti incontrare casi in cui un Text Hint contiene un genere, un mood, un’attività + le stringhe "music" o "songs". Poiché questi sono troppo specifici ma comunque utili, la valutazione migliore è **Acceptable**. Inoltre, il simbolo open box alla fine rappresenta uno spazio che l’utente ha inserito dopo il termine di ricerca, implicando che l’intento sia un’entità composta da due o più parole. Non ho visto lo spazio dopo la query. 
