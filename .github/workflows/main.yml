@@ -1,12 +1,12 @@
-# App. Musik Text Hints Guidelines
+# Servizio di Musica Text Hints Guidelines
 
 ## Introduction
-In this document we will explain how to evaluate Music Text Hints for App. Musik. You will use the BaseLine tool to make these judgments. The purpose of this evaluation is to evaluate the relevance of a Text Hint suggestion for a given string, aka prefix. We want to ensure that the Text Hints suggestions add value to the users in their search journey. Use your best judgment when considering the popularity, relevance and recency of a suggestion. Take into account the length of the prefix and how strong the intent is.
+In this document we will explain how to evaluate Music Text Hints for Servizio di Musica. You will use the BaseLine tool to make these judgments. The purpose of this evaluation is to evaluate the relevance of a Text Hint suggestion for a given string, aka prefix. We want to ensure that the Text Hints suggestions add value to the users in their search journey. Use your best judgment when considering the popularity, relevance and recency of a suggestion. Take into account the length of the prefix and how strong the intent is.
 
 ## Music Suggestions
-Music Suggestions are hints that are provided as a user types their query in the App. Musik search box. The role of the music suggestions is to help the user find the specific content they are looking for quickly and easily. Additionally, suggestions can also provide inspiration for new searches, leading users to discover new and relevant content they might not have otherwise found.
+Music Suggestions are hints that are provided as a user types their query in the Servizio di Musica search box. The role of the music suggestions is to help the user find the specific content they are looking for quickly and easily. Additionally, suggestions can also provide inspiration for new searches, leading users to discover new and relevant content they might not have otherwise found.
 
-App. Musik provides two types of music suggestions, as illustrated in the screenshot below:
+Servizio di Musica provides two types of music suggestions, as illustrated in the screenshot below:
 - **Text Hints**: Suggestions that the search engine is offering to the user as they start typing their query. The text hints are not search results, they are queries by themselves.
   - i.e. “the weeknd essentials”, “the weekend”, “the weeknd” in screenshot below.
 - **Top Hits**: Search results suggested to the user as they start typing their query.
@@ -15,7 +15,7 @@ App. Musik provides two types of music suggestions, as illustrated in the screen
 The focus of this evaluation is to evaluate the relevance of the Text Hint.
 
 ## The importance of your work as a Rater
-The data we receive from you in the form of high quality relevance judgments will be used to build and improve artificial intelligence systems such as search algorithms and machine learned rankers that power the user experience for App. Musik users. 
+The data we receive from you in the form of high quality relevance judgments will be used to build and improve artificial intelligence systems such as search algorithms and machine learned rankers that power the user experience for Servizio di Musica users. 
 Our ultimate goal is to surprise and delight our customers by improving search quality and enhancing customer satisfaction, and you play an important role in this.
 
 Your attention to detail, research and language skills as well as your cultural knowledge of the market are all critical to the success of our projects. Please keep in mind that your tasks will be spot-checked for quality, and measured against those of your peers. If your accuracy rate is consistently high enough, you may be qualified to work as an auditor who gives feedback to your peers.
@@ -36,13 +36,13 @@ The grades on the relevance scale are as follows:
 - Intent of the user
 - Relevance to the prefix
 - Popularity/Recency of the music content hinted
-- Availability on the App. Musik Catalog
+- Availability on the Servizio di Musica Catalog
 
 #### Intent of the user
-Each user that navigates to search in App. Musik is looking for a specific piece of content or content in a specific genre/mood. When evaluating the suggestions, keep in mind that user typing the same prefix might have a different intent. Because of this, it is important to understand what is the most frequent and common intent for a specific prefix, also known as primary intent. 
+Each user that navigates to search in Servizio di Musica is looking for a specific piece of content or content in a specific genre/mood. When evaluating the suggestions, keep in mind that user typing the same prefix might have a different intent. Because of this, it is important to understand what is the most frequent and common intent for a specific prefix, also known as primary intent. 
 
 ##### Primary and Secondary Intent
-The primary intent of a prefix is the most frequent and common intent based on relevance, recency, and popularity in the market you’re evaluating i.e. the intent of most users who enter that prefix on App. Musik. By taking in account the length of the prefix, you should adjust your popularity/recency judgement according to the set of content which is available given an input.
+The primary intent of a prefix is the most frequent and common intent based on relevance, recency, and popularity in the market you’re evaluating i.e. the intent of most users who enter that prefix on Servizio di Musica. By taking in account the length of the prefix, you should adjust your popularity/recency judgement according to the set of content which is available given an input.
 Most of the queries that you will evaluate are incomplete (reason why the inputs is called prefixes). Prefixes can have multiple likely primary intents while others point to a specific content.
 For example, for the prefix “lil”, the primary intent could be “Lil Wayne”, “Lil Baby” or “Lil Nas X” (all very popular artists) while for the prefix “pop sm”, the primary intent is clearly the artist “Pop Smoke”.
 
@@ -59,12 +59,12 @@ Relevance captures the relationship between the literal text of the prefix and t
 
 When assessing the relevance of the suggestions high emphasis should be given to the user submitted string, aka prefix. For example, for the prefix ‘2000s r’, the Text Hints ‘2000s r&b’ and ‘2000s rock’ are both highly relevant. For the prefix ‘2000s ro’, the previous relevant Text Hint ‘2000s r&b’ is no longer relevant.
 
-Note: Content that does not exist in App. Musik should not be suggested as Text Hint. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
+Note: Content that does not exist in Servizio di Musica should not be suggested as Text Hint. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
 
 #### Popularity/Recency
 It is important to understand the popularity and recency of the content that the Text Hints point to. Popularity and recency help us understand how many users would likely click on the Text Hints to complete their search. In other words, more popular and/or more recent content is usually relevant to a larger group of users, so the result is more likely to satisfy the intent.
 
-There are multiple resources you can check to understand popularity of content in your storefront: Bing, Google, Yahoo, YouTube, Genius, App. Musik. Please make sure you use at least two resources before making your decision. 
+There are multiple resources you can check to understand popularity of content in your storefront: Bing, Google, Yahoo, YouTube, Genius, Servizio di Musica. Please make sure you use at least two resources before making your decision. 
 
 ##### Seasonal Popularity
 When rating, you could encounter seasonal results which have additional relevance and popularity at specific times of year, for example Christmas songs are very popular at the end of the year. Please consider the seasonal popularity when rating results and consider increasing the rating due to seasonal popularity. E.g. The Text Hint 'christmas jazz' should be rated higher for a prefix [jazz] around Christmas time.
@@ -126,7 +126,7 @@ Suggestions containing content related but not limited to the following topics t
 - Violence
 
 Problem: Other
-Use this rating when a problem or technical issue with the task in BaseLine that makes it impossible to judge relevance. Problem: Other rating should not be used if the content is unavailable in App. Musik but it is still possible to determine relevance between input and output based on the information provided in BaseLine, and by completing a side search on Google and/or on other streaming platforms such as Spotify, Deezer, etc. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
+Use this rating when a problem or technical issue with the task in BaseLine that makes it impossible to judge relevance. Problem: Other rating should not be used if the content is unavailable in Servizio di Musica but it is still possible to determine relevance between input and output based on the information provided in BaseLine, and by completing a side search on Google and/or on other streaming platforms such as Spotify, Deezer, etc. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
 
 Open box ␣ 
 Some user queries in BaseLine end with the symbol known as open box: ␣
