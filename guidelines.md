@@ -15,8 +15,7 @@ Apple Music provides two types of music suggestions, as illustrated in the scree
 The focus of this evaluation is to evaluate the relevance of the Text Hint.
 
 ## The importance of your work as a Rater
-The data we receive from you in the form of high quality relevance judgments will be used to build and improve artificial intelligence systems such as search algorithms and machine learned rankers that power the user experience for Apple Music users. 
-[33mcommit 0be8d6c2f38fc982068a92612e83fcd437afecf3[m
+The data we receive from you in the form of high quality relevance judgments will be used to build and improve artificial intelligence systems such as search algorithms and machine learned rankers that power the user experience for Apple Music users.
 Author: Speed <speedonedirection@gmail.com>
 Date:   Sat Mar 29 12:47:50 2025 +0000
 
@@ -855,3 +854,9 @@ Date:   Thu Mar 27 20:59:31 2025 +0100
 ### Suggestion: rosalia despecha
 - **Classificazione:** Unacceptable: Spelling
 - **Motivazione:** Despite how popular the content the suggestion points to might seem, both tokens are misspelt as they're missing accents: "rosalía despechá"
+### Esempi di Valutazione Aggiuntivi
+
+#### Query: [cora]
+- **Suggerimento:** corazon despeinado
+- **Classificazione:** Unacceptable: Spelling
+  - **Motivazione:** Nonostante quanto possa sembrare rilevante questo suggerimento, la parola "corazon" è scritta in modo errato; pertanto, è un suggerimento inaccettabile. Correzione ortografica necessaria: "corazón" (con un accento).
