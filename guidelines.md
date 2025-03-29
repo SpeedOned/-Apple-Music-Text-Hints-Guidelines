@@ -860,3 +860,9 @@ Date:   Thu Mar 27 20:59:31 2025 +0100
 - **Suggerimento:** corazon despeinado
 - **Classificazione:** Unacceptable: Spelling
   - **Motivazione:** Nonostante quanto possa sembrare rilevante questo suggerimento, la parola "corazon" è scritta in modo errato; pertanto, è un suggerimento inaccettabile. Correzione ortografica necessaria: "corazón" (con un accento).
+### Esempi di Valutazione Aggiuntivi
+
+#### Query: [beyonce]
+- **Suggerimento:** savage beyonce
+- **Classificazione:** Unacceptable: Spelling
+  - **Motivazione:** Nonostante quanto possa sembrare rilevante questo suggerimento, il nome "beyonce" è scritto in modo errato; pertanto, è un suggerimento inaccettabile. Correzione ortografica necessaria: "beyoncé" (con un accento).
