@@ -6,7 +6,7 @@ In this document we will explain how to evaluate Music Text Hints for Apple Musi
 ## Music Suggestions
 Music Suggestions are hints that are provided as a user types their query in the Apple Music search box. The role of the music suggestions is to help the user find the specific content they are looking for quickly and easily. Additionally, suggestions can also provide inspiration for new searches, leading users to discover new and relevant content they might not have otherwise found.
 
-Apple Music provides two types of music suggestions, as illustrated in the screenshot below:
+App. Musik provides two types of music suggestions, as illustrated in the screenshot below:
 - **Text Hints**: Suggestions that the search engine is offering to the user as they start typing their query. The text hints are not search results, they are queries by themselves.
   - i.e. “the weeknd essentials”, “the weekend”, “the weeknd” in screenshot below.
 - **Top Hits**: Search results suggested to the user as they start typing their query.
