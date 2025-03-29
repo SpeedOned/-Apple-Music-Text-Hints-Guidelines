@@ -209,3 +209,21 @@ A secondary intent is less likely intent compared to a primary one. A secondary 
 - **Suggerimento:** kylie minogue the one
 - **Classificazione:** Good
   - **Motivazione:** Questo suggerimento porta a una canzone dell'artista inteso, ma non è una delle più popolari. Solo le canzoni/albums più popolari e le playlist di alta qualità contenenti solo musica dell'artista dovrebbero essere classificate come Perfect.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <input type="text" id="todo-input" placeholder="Add a new task">
+        <button id="add-todo">Add</button>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
