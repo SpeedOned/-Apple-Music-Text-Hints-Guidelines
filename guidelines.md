@@ -185,3 +185,27 @@ A secondary intent is less likely intent compared to a primary one. A secondary 
 #### Query [workout]
 - **Text Hint:** workout songs => **Acceptable**  
   Questo suggerimento potrebbe sembrare ridondante poiché contiene un linguaggio ovvio nel nostro contesto; tuttavia, potresti incontrare casi in cui un Text Hint contiene un genere, un mood, un’attività + le stringhe "music" o "songs". Poiché questi sono troppo specifici ma comunque utili, la valutazione migliore è **Acceptable**. Inoltre, il simbolo open box alla fine rappresenta uno spazio che l’utente ha inserito dopo il termine di ricerca, implicando che l’intento sia un’entità composta da due o più parole. Non ho visto lo spazio dopo la query. 
+  ## Valutazione dei Suggerimenti
+
+### Classificazione dei Suggerimenti
+
+188. **Perfect**: Un suggerimento che molto probabilmente soddisfa un'intenzione primaria comune dell'input. I suggerimenti che completano il prefisso e sono fortemente correlati al prefisso, sono mainstream popolari, aggiungono valore e "hanno senso" data la lunghezza della stringa. Solo le canzoni/albums più popolari e le playlist di alta qualità contenenti solo musica dell'artista dovrebbero essere classificate come Perfect.
+
+189. **Good**: Un suggerimento che probabilmente soddisfa un'intenzione secondaria del prefisso. Un'intenzione secondaria è meno probabile rispetto a un'intenzione primaria. Questo è rilevante per il prefisso e popolare, ma potrebbe non essere la prima scelta dell'utente.
+
+### Esempi di Valutazione
+
+190. **Esempio 1: Query [dua]**
+- **Suggerimento:** dua lipa madonna
+- **Classificazione:** Good
+  - **Motivazione:** Questo suggerimento contiene "dua lipa", che è molto rilevante per la query "dua". Tuttavia, l'aggiunta di "madonna" potrebbe rendere il suggerimento meno diretto. Nonostante ciò, poiché entrambi gli artisti sono molto popolari, il suggerimento può ancora essere considerato utile per l'utente.
+
+191. **Esempio 2: Query [be]**
+- **Suggerimento:** betty wright
+- **Classificazione:** Good
+  - **Motivazione:** Questo suggerimento porta a un'artista con 725K ascoltatori mensili su Spotify e 258K iscritti su YouTube; tuttavia, Wright non ha rilasciato musica da un po' di tempo e il suo periodo di massimo successo è stato negli anni '70. Poiché questo è un artista meno conosciuto/abbastanza popolare (ma non il meno popolare), possono essere considerati come un'intenzione secondaria. Per una query così ampia, solo le entità più popolari possono essere classificate come Perfect.
+
+192. **Esempio 3: Query [kylie m]**
+- **Suggerimento:** kylie minogue the one
+- **Classificazione:** Good
+  - **Motivazione:** Questo suggerimento porta a una canzone dell'artista inteso, ma non è una delle più popolari. Solo le canzoni/albums più popolari e le playlist di alta qualità contenenti solo musica dell'artista dovrebbero essere classificate come Perfect.
