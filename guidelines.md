@@ -535,3 +535,33 @@ Date:   Thu Mar 27 20:59:31 2025 +0100
 ### Suggestion: rosalia despecha
 - **Classificazione:** Unacceptable: Spelling
 - **Motivazione:** Despite how popular the content the suggestion points to might seem, both tokens are misspelt as they're missing accents: "rosalía despechá".
+# Ratings for a Narrow Prefix: [rosalia]
+
+## Perfect
+### Suggestion (Hint): rosalia despecha
+- **Classificazione:** Perfect
+- **Motivazione:** Points to a very popular song by the intended artist.
+
+## Good
+### Suggestion: rosalia los angeles
+- **Classificazione:** Good
+- **Motivazione:** Points to a lesser-known/not too popular song album by the intended artist.
+
+### Suggestion: rosalia tokischa
+- **Classificazione:** Good
+- **Motivazione:** Points to a popular collab by the intended artist but is slightly specific for the search prefix, as it doesn't mention the song's name. A Perfect suggestion would be "rosalia linda" which is the song featuring Tokischa.
+
+## Acceptable
+### Suggestion: rosalia la fam
+- **Classificazione:** Acceptable
+- **Motivazione:** Points to a popular song by the intended artist BUT is incomplete. Should be "rosalia la fama".
+
+## Unacceptable: Other
+### Suggestion: rosalia despecha-single
+- **Classificazione:** Unacceptable: Other
+- **Motivazione:** Despite how popular the content the suggestion points to might seem, the word 'single' is redundant (a single album contains only one song) and therefore unacceptable.
+
+## Unacceptable: Spelling
+### Suggestion: rosalia despecha
+- **Classificazione:** Unacceptable: Spelling
+- **Motivazione:** Despite how popular the content the suggestion points to might seem, both tokens are misspelt as they're missing accents: "rosalía despechá"
