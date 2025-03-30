@@ -180,3 +180,89 @@ A secondary intent is less likely intent compared to a primary one. A secondary 
 - **Less recent**: Hints that points to a less recent content. 
   - A less recent suggestion might be “good life” for the prefix “good”. The primary intent is likely the song “good 4 u” by Olivia Rodrigo and the hints points to the less recent song “Good Life” by OneRepublic (released in 2009). 
 - **Slightly Specific**: Hint that points to content relevant to a smaller group of users than for the primary intent or that restricts 
+# Key-Reminders
+
+## Introduction
+You are required to pass two tests, and each one will only have three attempts. Correct answers will be visible only after successfully passing each test. Content is US-centric during the testing phase.
+
+## Input Metadata
+Each query (task) will have an Input Metadata section which includes information that can help you understand the user's intent; however, this is for reference only as intents change over time. For example:
+- maroo Italy
+- Maroon
+- Taylor Swift
+
+### Example Metadata
+Query type: Art Navigational
+Distribution: Md
+Spelling: Spelled Correctly
+Disambiguation: Marone extremely popular
+Hand: Google Google Play Tube Hotty Ta
+Input Metadata: This query was classified as Artist Navigational because back then it was very likely referring to the band Maroon 5; however, nowadays, the song 'Maroon' by Taylor Swift is very popular, which means it can also be a possible intent (making the query Ambiguous rather than Navigational).
+
+## Text Suggestions (Hints)
+You have to determine relevancy for Text Suggestions (Hints). For example:
+- Query: héroes del silencio
+  - Text Hint: hombres g
+  - Comment: Héroes del Silencio is a popular band, but "hombres g" is another band and not relevant to the query "héroes del silencio".
+
+- Query: harry styles
+  - Text Hint: Harry Styles
+  - Comment: This is a perfect match as the query directly leads to the artist Harry Styles.
+
+# Identifying the User's Intent
+You will come across ambiguous prefixes with multiple intents or prefixes with a very narrow specified intent. For example:
+- Query: [adore you]
+  - This prefix leads to several different songs with matching titles; however, there are two that are very popular and come from mainstream artists, Harry Styles and Miley Cyrus:
+    - Harry Styles - Fine Line
+    - Miley Cyrus - Bangerz
+  - Nonetheless, Harry Styles' song is clearly:
+    1. More popular, with 1.5 billion streams on Spotify.
+    2. More recent, from 2019.
+  - These two indicators place Miley Cyrus' song only as a possible secondary intent.
+
+## Ranking Examples
+- Query: [adore you]
+  - Text Hint: adore you harry styles
+    - Comment: Hint leads to a primary intent (based on popularity).
+  - Text Hint: adore you miley cyrus
+    - Comment: Hint leads to a secondary intent result (less popular/dated).
+  - Text Hint: adore you harry
+    - Comment: Hint leads to a primary intent result BUT is incomplete. Not a desirable hint.
+
+# Insightful Comments
+For every given task, each rating must be explained in the Comment Box. Even if (optional) is indicated, comments are mandatory. Your comment should be clear, concise, and must explain why the chosen rating is the correct one in application of the Guidelines. It should include details like:
+- Metrics from research (Spotify plays, YouTube views, QQ Music comments, etc.)
+- Guidelines examples similar to the scenario evaluated
+- Other possible intents
+- Logic behind the chosen rating
+
+Stay curious and do thorough research to understand the relationship between a prefix and the result. Ask yourself "Why is this particular result returned for this prefix?"
+
+## Examples of Insightful Comments
+- Query: [one]
+  - Text Hint: one kiss calvin harris
+    - Not Helpful Comment: "Popular song that satisfies a primary intent."
+    - Insightful Comment: "Though there are other possible intents, like Daft Punk's 'One More Time,' since the prefix is very vague, and this result is a popular song from 2018 that fully matches the prefix (1.88B streams on Spotify and 885M views on YouTube), we can conclude it is very likely to satisfy a primary intent."
+
+# Additional Examples
+- Not Helpful Comment: "Satisfies a primary intent."
+  - Why does the result satisfy a primary intent?
+- Not Helpful Comment: "Relevant to the intended genre."
+  - Why is the result relevant?
+- Not Helpful Comment: "This result satisfies a secondary intent per guidelines for this prefix type."
+  - Why does the result satisfy a secondary intent? Which part of the Guidelines?
+- Not Helpful Comment: "A new song by a popular artist."
+  - When was this song released for it to be considered new? Why is the artist popular?
+
+- Insightful Comment: 
+  - "Hint points to a popular song by the queried artist (with xxx streams on Spotify and xxx views on YouTube). It's also listed as a top song in their Artist Page on Apple Music. Satisfies a dominant intent."
+  - "User is looking for music while working out and although the suggestion is a bit redundant because it includes the word 'music', it is still slightly relevant as it leads the user to discover music in the intended genre/mood."
+  - "As per the Guidelines: <quote>; thus, result can only satisfy a secondary intent."
+  - "Result leads to a highly anticipated/recent song (May 2023) by a mainstream artist (has 1.2 million monthly listeners on Spotify and 500K subscribers on YouTube), can satisfy the user's intent."
+  - "Misspelt hint."
+    - Why is the result misspelt?
+  - "This text suggestion leads to a popular artist, but their name is misspelt and should rather be xxx. Therefore, this suggestion is unacceptable."
+  - "Single song by artist."
+    - "Result points to a popular song by the intended artist but since the word single is present in the string, the suggestion is unacceptable as it's redundant."
+
+Make sure your comments reflect the research you've done prior to getting into a conclusion. You can quote the Guidelines if needed but ensure the rationale behind the chosen rating is explained.
