@@ -1,12 +1,12 @@
-# Apple Music Text Hints Guidelines
+# Servizio di Musica Text Hints Guidelines
 
 ## Introduction
-In this document we will explain how to evaluate Music Text Hints for Apple Music. You will use the BaseLine tool to make these judgments. The purpose of this evaluation is to evaluate the relevance of a Text Hint suggestion for a given string, aka prefix. We want to ensure that the Text Hints suggestions add value to the users in their search journey. Use your best judgment when considering the popularity, relevance and recency of a suggestion. Take into account the length of the prefix and how strong the intent is.
+In this document we will explain how to evaluate Music Text Hints for Servizio di Musica. You will use the BaseLine tool to make these judgments. The purpose of this evaluation is to evaluate the relevance of a Text Hint suggestion for a given string, aka prefix. We want to ensure that the Text Hints suggestions add value to the users in their search journey. Use your best judgment when considering the popularity, relevance and recency of a suggestion. Take into account the length of the prefix and how strong the intent is.
 
 ## Music Suggestions
-Music Suggestions are hints that are provided as a user types their query in the Apple Music search box. The role of the music suggestions is to help the user find the specific content they are looking for quickly and easily. Additionally, suggestions can also provide inspiration for new searches, leading users to discover new and relevant content they might not have otherwise found.
+Music Suggestions are hints that are provided as a user types their query in the Servizio di Musica search box. The role of the music suggestions is to help the user find the specific content they are looking for quickly and easily. Additionally, suggestions can also provide inspiration for new searches, leading users to discover new and relevant content they might not have otherwise found.
 
-Apple Music provides two types of music suggestions, as illustrated in the screenshot below:
+Servizio di Musica provides two types of music suggestions, as illustrated in the screenshot below:
 - **Text Hints**: Suggestions that the search engine is offering to the user as they start typing their query. The text hints are not search results, they are queries by themselves.
   - i.e. “the weeknd essentials”, “the weekend”, “the weeknd” in screenshot below.
 - **Top Hits**: Search results suggested to the user as they start typing their query.
@@ -15,7 +15,7 @@ Apple Music provides two types of music suggestions, as illustrated in the scree
 The focus of this evaluation is to evaluate the relevance of the Text Hint.
 
 ## The importance of your work as a Rater
-The data we receive from you in the form of high quality relevance judgments will be used to build and improve artificial intelligence systems such as search algorithms and machine learned rankers that power the user experience for Apple Music users. 
+The data we receive from you in the form of high quality relevance judgments will be used to build and improve artificial intelligence systems such as search algorithms and machine learned rankers that power the user experience for Servizio di Musica users. 
 Our ultimate goal is to surprise and delight our customers by improving search quality and enhancing customer satisfaction, and you play an important role in this.
 
 Your attention to detail, research and language skills as well as your cultural knowledge of the market are all critical to the success of our projects. Please keep in mind that your tasks will be spot-checked for quality, and measured against those of your peers. If your accuracy rate is consistently high enough, you may be qualified to work as an auditor who gives feedback to your peers.
@@ -36,13 +36,13 @@ The grades on the relevance scale are as follows:
 - Intent of the user
 - Relevance to the prefix
 - Popularity/Recency of the music content hinted
-- Availability on the Apple Music Catalog
+- Availability on the Servizio di Musica Catalog
 
 #### Intent of the user
-Each user that navigates to search in Apple Music is looking for a specific piece of content or content in a specific genre/mood. When evaluating the suggestions, keep in mind that user typing the same prefix might have a different intent. Because of this, it is important to understand what is the most frequent and common intent for a specific prefix, also known as primary intent. 
+Each user that navigates to search in Servizio di Musica is looking for a specific piece of content or content in a specific genre/mood. When evaluating the suggestions, keep in mind that user typing the same prefix might have a different intent. Because of this, it is important to understand what is the most frequent and common intent for a specific prefix, also known as primary intent. 
 
 ##### Primary and Secondary Intent
-The primary intent of a prefix is the most frequent and common intent based on relevance, recency, and popularity in the market you’re evaluating i.e. the intent of most users who enter that prefix on Apple Music. By taking in account the length of the prefix, you should adjust your popularity/recency judgement according to the set of content which is available given an input.
+The primary intent of a prefix is the most frequent and common intent based on relevance, recency, and popularity in the market you’re evaluating i.e. the intent of most users who enter that prefix on Servizio di Musica. By taking in account the length of the prefix, you should adjust your popularity/recency judgement according to the set of content which is available given an input.
 Most of the queries that you will evaluate are incomplete (reason why the inputs is called prefixes). Prefixes can have multiple likely primary intents while others point to a specific content.
 For example, for the prefix “lil”, the primary intent could be “Lil Wayne”, “Lil Baby” or “Lil Nas X” (all very popular artists) while for the prefix “pop sm”, the primary intent is clearly the artist “Pop Smoke”.
 
@@ -59,12 +59,12 @@ Relevance captures the relationship between the literal text of the prefix and t
 
 When assessing the relevance of the suggestions high emphasis should be given to the user submitted string, aka prefix. For example, for the prefix ‘2000s r’, the Text Hints ‘2000s r&b’ and ‘2000s rock’ are both highly relevant. For the prefix ‘2000s ro’, the previous relevant Text Hint ‘2000s r&b’ is no longer relevant.
 
-Note: Content that does not exist in Apple Music should not be suggested as Text Hint. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
+Note: Content that does not exist in Servizio di Musica should not be suggested as Text Hint. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
 
 #### Popularity/Recency
 It is important to understand the popularity and recency of the content that the Text Hints point to. Popularity and recency help us understand how many users would likely click on the Text Hints to complete their search. In other words, more popular and/or more recent content is usually relevant to a larger group of users, so the result is more likely to satisfy the intent.
 
-There are multiple resources you can check to understand popularity of content in your storefront: Bing, Google, Yahoo, YouTube, Genius, Apple Music. Please make sure you use at least two resources before making your decision. 
+There are multiple resources you can check to understand popularity of content in your storefront: Bing, Google, Yahoo, YouTube, Genius, Servizio di Musica. Please make sure you use at least two resources before making your decision. 
 
 ##### Seasonal Popularity
 When rating, you could encounter seasonal results which have additional relevance and popularity at specific times of year, for example Christmas songs are very popular at the end of the year. Please consider the seasonal popularity when rating results and consider increasing the rating due to seasonal popularity. E.g. The Text Hint 'christmas jazz' should be rated higher for a prefix [jazz] around Christmas time.
@@ -126,7 +126,7 @@ Suggestions containing content related but not limited to the following topics t
 - Violence
 
 Problem: Other
-Use this rating when a problem or technical issue with the task in BaseLine that makes it impossible to judge relevance. Problem: Other rating should not be used if the content is unavailable in Apple Music but it is still possible to determine relevance between input and output based on the information provided in BaseLine, and by completing a side search on Google and/or on other streaming platforms such as Spotify, Deezer, etc. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
+Use this rating when a problem or technical issue with the task in BaseLine that makes it impossible to judge relevance. Problem: Other rating should not be used if the content is unavailable in Servizio di Musica but it is still possible to determine relevance between input and output based on the information provided in BaseLine, and by completing a side search on Google and/or on other streaming platforms such as Spotify, Deezer, etc. If a Text Hint points to content that is not available on the platform, it should be rated as Unacceptable: Other.
 
 Open box ␣ 
 Some user queries in BaseLine end with the symbol known as open box: ␣
@@ -180,3 +180,89 @@ A secondary intent is less likely intent compared to a primary one. A secondary 
 - **Less recent**: Hints that points to a less recent content. 
   - A less recent suggestion might be “good life” for the prefix “good”. The primary intent is likely the song “good 4 u” by Olivia Rodrigo and the hints points to the less recent song “Good Life” by OneRepublic (released in 2009). 
 - **Slightly Specific**: Hint that points to content relevant to a smaller group of users than for the primary intent or that restricts 
+# Key-Reminders
+
+## Introduction
+You are required to pass two tests, and each one will only have three attempts. Correct answers will be visible only after successfully passing each test. Content is US-centric during the testing phase.
+
+## Input Metadata
+Each query (task) will have an Input Metadata section which includes information that can help you understand the user's intent; however, this is for reference only as intents change over time. For example:
+- maroo Italy
+- Maroon
+- Taylor Swift
+
+### Example Metadata
+Query type: Art Navigational
+Distribution: Md
+Spelling: Spelled Correctly
+Disambiguation: Marone extremely popular
+Hand: Google Google Play Tube Hotty Ta
+Input Metadata: This query was classified as Artist Navigational because back then it was very likely referring to the band Maroon 5; however, nowadays, the song 'Maroon' by Taylor Swift is very popular, which means it can also be a possible intent (making the query Ambiguous rather than Navigational).
+
+## Text Suggestions (Hints)
+You have to determine relevancy for Text Suggestions (Hints). For example:
+- Query: héroes del silencio
+  - Text Hint: hombres g
+  - Comment: Héroes del Silencio is a popular band, but "hombres g" is another band and not relevant to the query "héroes del silencio".
+
+- Query: harry styles
+  - Text Hint: Harry Styles
+  - Comment: This is a perfect match as the query directly leads to the artist Harry Styles.
+
+# Identifying the User's Intent
+You will come across ambiguous prefixes with multiple intents or prefixes with a very narrow specified intent. For example:
+- Query: [adore you]
+  - This prefix leads to several different songs with matching titles; however, there are two that are very popular and come from mainstream artists, Harry Styles and Miley Cyrus:
+    - Harry Styles - Fine Line
+    - Miley Cyrus - Bangerz
+  - Nonetheless, Harry Styles' song is clearly:
+    1. More popular, with 1.5 billion streams on Spotify.
+    2. More recent, from 2019.
+  - These two indicators place Miley Cyrus' song only as a possible secondary intent.
+
+## Ranking Examples
+- Query: [adore you]
+  - Text Hint: adore you harry styles
+    - Comment: Hint leads to a primary intent (based on popularity).
+  - Text Hint: adore you miley cyrus
+    - Comment: Hint leads to a secondary intent result (less popular/dated).
+  - Text Hint: adore you harry
+    - Comment: Hint leads to a primary intent result BUT is incomplete. Not a desirable hint.
+
+# Insightful Comments
+For every given task, each rating must be explained in the Comment Box. Even if (optional) is indicated, comments are mandatory. Your comment should be clear, concise, and must explain why the chosen rating is the correct one in application of the Guidelines. It should include details like:
+- Metrics from research (Spotify plays, YouTube views, QQ Music comments, etc.)
+- Guidelines examples similar to the scenario evaluated
+- Other possible intents
+- Logic behind the chosen rating
+
+Stay curious and do thorough research to understand the relationship between a prefix and the result. Ask yourself "Why is this particular result returned for this prefix?"
+
+## Examples of Insightful Comments
+- Query: [one]
+  - Text Hint: one kiss calvin harris
+    - Not Helpful Comment: "Popular song that satisfies a primary intent."
+    - Insightful Comment: "Though there are other possible intents, like Daft Punk's 'One More Time,' since the prefix is very vague, and this result is a popular song from 2018 that fully matches the prefix (1.88B streams on Spotify and 885M views on YouTube), we can conclude it is very likely to satisfy a primary intent."
+
+# Additional Examples
+- Not Helpful Comment: "Satisfies a primary intent."
+  - Why does the result satisfy a primary intent?
+- Not Helpful Comment: "Relevant to the intended genre."
+  - Why is the result relevant?
+- Not Helpful Comment: "This result satisfies a secondary intent per guidelines for this prefix type."
+  - Why does the result satisfy a secondary intent? Which part of the Guidelines?
+- Not Helpful Comment: "A new song by a popular artist."
+  - When was this song released for it to be considered new? Why is the artist popular?
+
+- Insightful Comment: 
+  - "Hint points to a popular song by the queried artist (with xxx streams on Spotify and xxx views on YouTube). It's also listed as a top song in their Artist Page on Apple Music. Satisfies a dominant intent."
+  - "User is looking for music while working out and although the suggestion is a bit redundant because it includes the word 'music', it is still slightly relevant as it leads the user to discover music in the intended genre/mood."
+  - "As per the Guidelines: <quote>; thus, result can only satisfy a secondary intent."
+  - "Result leads to a highly anticipated/recent song (May 2023) by a mainstream artist (has 1.2 million monthly listeners on Spotify and 500K subscribers on YouTube), can satisfy the user's intent."
+  - "Misspelt hint."
+    - Why is the result misspelt?
+  - "This text suggestion leads to a popular artist, but their name is misspelt and should rather be xxx. Therefore, this suggestion is unacceptable."
+  - "Single song by artist."
+    - "Result points to a popular song by the intended artist but since the word single is present in the string, the suggestion is unacceptable as it's redundant."
+
+Make sure your comments reflect the research you've done prior to getting into a conclusion. You can quote the Guidelines if needed but ensure the rationale behind the chosen rating is explained.
